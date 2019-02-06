@@ -4,7 +4,6 @@
   <artifactId>maven-demo</artifactId>
   <packaging>war</packaging>
   <version>1.2.7-SNAPSHOT</version>
-  <name>maven-demo</name>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
@@ -26,15 +25,4 @@
       </plugin>
     </plugins>
   </build>
-	
-  <distributionManagement>
-    <site>
-      <id>maven-demo</id>
-      <url>file:///${basedir}/../../../temp</url>
-    </site>
-    <repository>
-      <id>maven-demo</id>
-      <url>file:///${basedir}/../../../temp/maven2</url>
-    </repository>
-  </distributionManagement>	
 </project>
